@@ -60,6 +60,9 @@ void ppt(String escolha1,String escolha2)
                     break;
             }
             break;
+        default:
+            Console.WriteLine("Opção inválida");
+            break;
     }
 }
 
